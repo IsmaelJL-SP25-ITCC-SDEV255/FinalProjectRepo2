@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cart</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="Script/Cart.js" defer></script>
+</head>
+<body>
+
+    <h1>College Course Registration</h1>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Login.html">Login</a></li>
+            <li><a href="Register For Class.html">Register For Class</a></li>
+            <li><a href="Cart.html">Cart</a></li>
+            <li><a href="Schedule.html">Schedule</a></li>
+        </ul>
+    </nav>
+    <h1>Your Cart</h1>
+    <table id="cart-table">
+        <thead>
+            <tr>
+                <th>Course Name</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <button onclick="sendToSchedule()">Add to Schedule</button>
+    <button onclick="window.location.href='Register For Class.html'">Back to Register</button>
+
+</body>
+</html>
